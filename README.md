@@ -25,5 +25,6 @@ Run the assign-1.jar file and follow the instructions on the console.
 The code runs a menu-driven program. Each choice is an integer in the range 1-7 (both included).
 1. An entry is added to the file if it does not already exist there.
 2. An edited entry is pushed to the end of the file after changes and the prior entry is deleted.
-3. On sorting the file, on the column "country name", a new (output) file is created and the sorted data is written to the output file path taken as input from console.
-4. On conversion of temperature from Celsius to Farenheit, a new (output) file is created and temperatures in C and F are written to the output file path taken as input from the console.
+3. For domain mismatch (eg. temperature not being given as a float) program stops with exception "InputMismatchException". 
+4. On sorting the file, on the column "country name", a new (output) file is created and the sorted data is written to the output file path taken as input from console.
+5. On conversion of temperature from Celsius to Farenheit, a new (output) file is created and temperatures in C and F are written to the output file path taken as input from the console.
